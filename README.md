@@ -38,8 +38,8 @@ slow requests:        0
 
 ### Setup zabbix_agentd 
 
-Copy `userparameter_phpfpm.conf` to zabbix_agentd sub configuration directory such as `etc/zabbix_agentd.conf.d`  and restart zabbix_agentd 
-
+Copy `userparameter_phpfpm.conf` to zabbix_agentd sub configuration directory such as `/etc/zabbix_agentd.conf.d` and restart zabbix_agentd.  
+Copy `phpfpm_status.sh` to `${basedir}/scripts/` and add execution permissions to the file.  
 
 
 Request Zabbix UI to configuration the template and link it to hosts.
